@@ -1,0 +1,130 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    color:  hsl(292, 42%, 14%);
+    background-color: hsl(275, 100%, 97%);
+}
+main{
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: -1px 53px 44px -17px rgba(199,177,199,0.49);
+    -moz-box-shadow: -1px 53px 44px -17px rgba(199,177,199,0.49);
+    box-shadow: -1px 53px 44px -17px rgba(199,177,199,0.49);}
+
+#headerSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#faq{
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+#faq{
+}
+
+button{
+    border-radius: 50%;
+    border: none;
+    padding: 20px;
+    margin: 1px;
+    max-width: 5rem;
+    aspect-ratio: 1/1;
+    background-image: url('assets/images/icon-plus.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.questions{
+    cursor:pointer;
+}
+.questions:hover{
+    color: #B644E2;
+}
+.answers{
+    line-height: 1.5rem;
+    color: hsl(292, 16%, 49%);
+}
+.bodySection{
+    border-bottom: 1px solid hsla(292, 16%, 49%, 0.2);
+}
+.showers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width: 425px){
+    body{
+        background-image: url('assets/images/background-pattern-mobile.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 10rem 3rem;
+    }
+    main{
+        background-color: white;
+        
+        border-radius: 1rem;
+        position:relative;
+        margin-right: 0 auto;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width:768px){
+    body{
+        background-image: url('assets/images/background-pattern-desktop.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 8rem 3rem;
+    }
+    main{
+        background-color: white;
+        
+        border-radius: 1rem;
+        position:relative;
+        margin-right: 0 auto;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 769px){
+    body{
+        background-image: url('assets/images/background-pattern-desktop.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 8rem 4rem;
+    }
+    main{
+        background-color: white;
+        
+        border-radius: 1rem;
+        position:relative;
+        margin-right: 0 auto;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    body{
+        background-image: url('assets/images/background-pattern-desktop.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 8rem 20vw;
+    }
+    main{
+        background-color: white;
+        
+        border-radius: 1rem;
+        position:relative;
+        margin-right: 0 auto;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+}
